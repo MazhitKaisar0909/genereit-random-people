@@ -16,6 +16,7 @@ bttn.addEventListener('click', () => {
             <p class="text">age: <a class="text-color">${randomPerson.dob.age}</a></p>
             <p class="text">email: <a class="text-color">${randomPerson.email}</a></p>
             <p class="text">phone: <a class="text-color">${randomPerson.phone}</a></p>
+
             <p class="text">country: <a class="text-color">${randomPerson.location.country}</a></p>
             <p class="text">street name: <a class="text-color">${randomPerson.location.street.name}</a></p>
             <p class="text">street number: <a class="text-color">${randomPerson.location.street.number}</a></p>
